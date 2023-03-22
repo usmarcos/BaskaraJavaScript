@@ -1,0 +1,61 @@
+/* Estilos para o body */
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  }
+  
+  /* Estilos para o título */
+  h1 {
+  font-size: 2.5rem;
+  margin-top: 50px;
+  }
+  
+  /* Estilos para o parágrafo */
+  p {
+  font-size: 1.2rem;
+  margin: 20px auto;
+  max-width: 600px;
+  }
+  
+  /* Estilos para os inputs */
+  input {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #e6e6e6;
+  font-size: 1.2rem;
+  }
+  
+  /* Estilos para o botão */
+  button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+  background-color: #3e8e41;
+  }
+  
+  /* Estilos para o container dos inputs */
+  input[name="valor"] {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  margin: 20px auto;
+  }
+  #resultado {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    font-size: 1.2rem;
+  }
